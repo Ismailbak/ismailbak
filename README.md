@@ -12,7 +12,7 @@
 
 <p align="left">
 ✨ Creating bugs since 2022<br>
-📚 I'm currently learning ASP.NET Core, Cloud Architecture, RAG & Machine Learning<br>
+📚 I'm currently learning Devops, flutter, RAG & Machine Learning<br>
 🎯 Goals: Build impactful apps with AI & automation<br>
 📝 I enjoy publishing articles about tech and development<br>
 🎲 Fun fact: I can debug faster with coffee ☕
