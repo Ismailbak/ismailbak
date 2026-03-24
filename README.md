@@ -13,7 +13,6 @@ I believe great software isn't just about working code—it's about **solving hu
 ## 🔭 Currently exploring
 
 - Building smarter applications with **AI & RAG systems**
-- Mobile development with **Flutter**
 - Scalable infrastructure & **DevOps practices**
 - The future of **automation in everyday systems**
 
