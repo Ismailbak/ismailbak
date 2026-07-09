@@ -1,0 +1,51 @@
+name: Daily Health Report
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.HEALTH_CHECK_PAT }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build health report
+        run: |
+          USERNAME="Ismailbak"
+          echo "# Repo Health Report — $(date -u +'%Y-%m-%d')" > health-report.md
+          echo "" >> health-report.md
+
+          repos=$(gh repo list "$USERNAME" --limit 200 --json name,isArchived,isFork \
+            -q '.[] | select(.isArchived==false and .isFork==false) | .name')
+
+          for repo in $repos; do
+            data=$(gh api "repos/$USERNAME/$repo")
+            pushed=$(echo "$data" | jq -r '.pushed_at')
+            open_issues=$(echo "$data" | jq -r '.open_issues_count')
+            license=$(echo "$data" | jq -r '.license.name // "None"')
+            days_stale=$(( ( $(date +%s) - $(date -d "$pushed" +%s) ) / 86400 ))
+
+            echo "## $repo" >> health-report.md
+            echo "- Last push: $pushed ($days_stale days ago)" >> health-report.md
+            echo "- Open issues: $open_issues" >> health-report.md
+            echo "- License: $license" >> health-report.md
+
+            if [ "$days_stale" -gt 180 ]; then
+              echo "- ⚠️ Stale (no activity in 6+ months)" >> health-report.md
+            fi
+            echo "" >> health-report.md
+          done
+
+      - name: Commit report
+        run: |
+          git config user.name "Ismailbak"
+          git config user.email "85363276+Ismailbak@users.noreply.github.com"
+          git add health-report.md
+          git commit -m "chore: daily repo health report ($(date -u +%F))" || echo "No changes"
+          git push
