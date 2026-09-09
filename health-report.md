@@ -1,122 +1,122 @@
-# Repo Health Report — 2026-09-08
+# Repo Health Report — 2026-09-09
 
-## Medical-AI-Assitant-main
-- Last push: 2026-09-07T18:14:17Z (0 days ago)
+## Portfolio
+- Last push: 2026-09-09T00:44:08Z (0 days ago)
 - Open issues: 0
 - License: None
 
 ## ismailbak
-- Last push: 2026-09-07T10:59:52Z (0 days ago)
+- Last push: 2026-09-08T10:15:37Z (1 days ago)
+- Open issues: 0
+- License: None
+
+## Medical-AI-Assitant-main
+- Last push: 2026-09-07T18:14:17Z (1 days ago)
 - Open issues: 0
 - License: None
 
 ## Medical-rotations
-- Last push: 2026-09-03T18:33:57Z (4 days ago)
+- Last push: 2026-09-03T18:33:57Z (5 days ago)
 - Open issues: 0
 - License: None
 
 ## Gelato-house
-- Last push: 2026-08-24T23:19:29Z (14 days ago)
+- Last push: 2026-08-24T23:19:29Z (15 days ago)
 - Open issues: 0
 - License: None
 
 ## ClinicOS-website
-- Last push: 2026-08-18T07:56:34Z (21 days ago)
+- Last push: 2026-08-18T07:56:34Z (22 days ago)
 - Open issues: 0
 - License: None
 
 ## HospitalFlow
-- Last push: 2026-07-20T14:43:22Z (49 days ago)
+- Last push: 2026-07-20T14:43:22Z (50 days ago)
 - Open issues: 0
 - License: None
 
 ## cdbakraoui
-- Last push: 2026-06-13T00:44:48Z (87 days ago)
+- Last push: 2026-06-13T00:44:48Z (88 days ago)
 - Open issues: 0
 - License: None
 
 ## synergy-website
-- Last push: 2026-05-20T15:00:36Z (110 days ago)
+- Last push: 2026-05-20T15:00:36Z (111 days ago)
 - Open issues: 0
 - License: None
 
 ## Synergy
-- Last push: 2026-05-20T14:44:38Z (110 days ago)
+- Last push: 2026-05-20T14:44:38Z (111 days ago)
 - Open issues: 0
 - License: None
 
 ## LITIAS-website
-- Last push: 2026-04-22T09:55:06Z (139 days ago)
-- Open issues: 0
-- License: None
-
-## Portfolio
-- Last push: 2026-03-19T19:15:33Z (172 days ago)
+- Last push: 2026-04-22T09:55:06Z (140 days ago)
 - Open issues: 0
 - License: None
 
 ## Analyse-automatique-des-sentiments
-- Last push: 2026-01-14T13:58:48Z (236 days ago)
+- Last push: 2026-01-14T13:58:48Z (237 days ago)
 - Open issues: 0
 - License: None
 - ⚠️ Stale (no activity in 6+ months)
 
 ## knowledge-graph
-- Last push: 2026-01-09T13:29:01Z (241 days ago)
+- Last push: 2026-01-09T13:29:01Z (242 days ago)
 - Open issues: 0
 - License: None
 - ⚠️ Stale (no activity in 6+ months)
 
 ## Spring-project
-- Last push: 2025-12-16T07:20:34Z (266 days ago)
+- Last push: 2025-12-16T07:20:34Z (267 days ago)
 - Open issues: 0
 - License: None
 - ⚠️ Stale (no activity in 6+ months)
 
 ## power-bi-rendu-emsi
-- Last push: 2025-12-10T14:40:33Z (271 days ago)
+- Last push: 2025-12-10T14:40:33Z (272 days ago)
 - Open issues: 0
 - License: None
 - ⚠️ Stale (no activity in 6+ months)
 
 ## Big-Data-Data-Engineering
-- Last push: 2025-12-04T16:24:29Z (277 days ago)
+- Last push: 2025-12-04T16:24:29Z (278 days ago)
 - Open issues: 0
 - License: None
 - ⚠️ Stale (no activity in 6+ months)
 
 ## flutter-project-drawer
-- Last push: 2025-11-24T13:57:50Z (287 days ago)
+- Last push: 2025-11-24T13:57:50Z (288 days ago)
 - Open issues: 0
 - License: None
 - ⚠️ Stale (no activity in 6+ months)
 
 ## Github-commands
-- Last push: 2025-11-03T10:47:55Z (308 days ago)
+- Last push: 2025-11-03T10:47:55Z (309 days ago)
 - Open issues: 0
 - License: None
 - ⚠️ Stale (no activity in 6+ months)
 
 ## powerbi-analytics-project
-- Last push: 2025-11-01T22:16:17Z (310 days ago)
+- Last push: 2025-11-01T22:16:17Z (311 days ago)
 - Open issues: 0
 - License: None
 - ⚠️ Stale (no activity in 6+ months)
 
 ## flutter-learning
-- Last push: 2025-09-29T22:00:20Z (343 days ago)
+- Last push: 2025-09-29T22:00:20Z (344 days ago)
 - Open issues: 0
 - License: None
 - ⚠️ Stale (no activity in 6+ months)
 
 ## It-inventory
-- Last push: 2025-09-18T02:18:51Z (355 days ago)
+- Last push: 2025-09-18T02:18:51Z (356 days ago)
 - Open issues: 0
 - License: None
 - ⚠️ Stale (no activity in 6+ months)
 
 ## Fairmont-Project
-- Last push: 2025-08-30T11:09:03Z (373 days ago)
+- Last push: 2025-08-30T11:09:03Z (374 days ago)
 - Open issues: 1
 - License: None
 - ⚠️ Stale (no activity in 6+ months)
